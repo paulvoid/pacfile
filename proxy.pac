@@ -6,5 +6,5 @@ function FindProxyForURL(url, host) {
     }
 
     // by default use no proxy
-    return "PROXY 127.0.0.1:8000";
+    return "DIRECT";
 }
