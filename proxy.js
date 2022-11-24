@@ -10,7 +10,7 @@ function FindProxyForURL(url, host) {
     }
 
     // roblox.com
-    if (dnsDomainIs(host, "roblox.com") || (shExpMatch(url, "*.roblox.com"))){
+    if (dnsDomainIs(host, "roblox.com") || (shExpMatch(url, "*.roblox.com*"))){
         return "PROXY 127.0.0.1:8000";
     }
 
